@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "b b",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "betterore:spinel"
+    }
+  },
+  "result": {
+    "item": "betterore:spinels_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "betterore:painite"
+    },
+    "b": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "betterore:painitetools_shovel",
+    "count": 1
+  }
+}

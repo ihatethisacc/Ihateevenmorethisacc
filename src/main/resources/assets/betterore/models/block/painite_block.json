@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "betterore:block/painite",
+    "particle": "betterore:block/painite"
+  },
+  "render_type": "solid"
+}

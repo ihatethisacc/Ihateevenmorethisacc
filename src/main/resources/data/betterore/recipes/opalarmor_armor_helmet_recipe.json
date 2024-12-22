@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "betterore:painite"
+    },
+    "c": {
+      "item": "betterore:opal"
+    }
+  },
+  "result": {
+    "item": "betterore:opalarmor_armor_helmet",
+    "count": 1
+  }
+}

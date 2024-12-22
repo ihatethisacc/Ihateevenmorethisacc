@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "betterore:peridot"
+    }
+  },
+  "result": {
+    "item": "betterore:peridot_block",
+    "count": 1
+  }
+}

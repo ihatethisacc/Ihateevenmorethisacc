@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterore:painite_block"
+    }
+  ],
+  "result": {
+    "item": "betterore:painite",
+    "count": 9
+  }
+}

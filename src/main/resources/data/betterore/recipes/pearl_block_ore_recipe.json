@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterore:pearl_block"
+    }
+  ],
+  "result": {
+    "item": "betterore:pearl",
+    "count": 9
+  }
+}

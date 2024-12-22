@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "betterore:peridot"
+    },
+    "b": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "betterore:peridot_armor_chestplate",
+    "count": 1
+  }
+}

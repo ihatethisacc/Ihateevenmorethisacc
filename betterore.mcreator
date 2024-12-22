@@ -1,0 +1,1626 @@
+{
+  "mod_elements": [
+    {
+      "name": "Opal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/OpalItem.java",
+          "src/main/resources/assets/betterore/models/item/opal.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/opal_ore.json",
+          "src/main/resources/assets/betterore/models/block/opal_ore.json",
+          "src/main/resources/data/betterore/worldgen/configured_feature/opal_ore.json",
+          "src/main/resources/data/betterore/forge/biome_modifier/opal_ore_biome_modifier.json",
+          "src/main/resources/data/betterore/loot_tables/blocks/opal_ore.json",
+          "src/main/java/net/mcreator/betterores/block/OpalOreBlock.java",
+          "src/main/resources/data/betterore/worldgen/placed_feature/opal_ore.json",
+          "src/main/resources/assets/betterore/blockstates/opal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/blockstates/opal_block.json",
+          "src/main/resources/assets/betterore/models/block/opal_block.json",
+          "src/main/java/net/mcreator/betterores/block/OpalBlockBlock.java",
+          "src/main/resources/data/betterore/loot_tables/blocks/opal_block.json",
+          "src/main/resources/assets/betterore/models/item/opal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Painite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/painite.json",
+          "src/main/java/net/mcreator/betterores/item/PainiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PainiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/forge/biome_modifier/painite_ore_biome_modifier.json",
+          "src/main/resources/assets/betterore/models/block/painite_ore.json",
+          "src/main/resources/data/betterore/worldgen/configured_feature/painite_ore.json",
+          "src/main/resources/data/betterore/worldgen/placed_feature/painite_ore.json",
+          "src/main/resources/assets/betterore/blockstates/painite_ore.json",
+          "src/main/java/net/mcreator/betterores/block/PainiteOreBlock.java",
+          "src/main/resources/data/betterore/loot_tables/blocks/painite_ore.json",
+          "src/main/resources/assets/betterore/models/item/painite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PainiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/block/PainiteBlockBlock.java",
+          "src/main/resources/assets/betterore/models/item/painite_block.json",
+          "src/main/resources/data/betterore/loot_tables/blocks/painite_block.json",
+          "src/main/resources/assets/betterore/blockstates/painite_block.json",
+          "src/main/resources/assets/betterore/models/block/painite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PainiteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainiteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/opal_tools_pickaxe.json",
+          "src/main/java/net/mcreator/betterores/item/OpalToolsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/opal_tools_axe.json",
+          "src/main/java/net/mcreator/betterores/item/OpalToolsAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/opal_tools_sword.json",
+          "src/main/java/net/mcreator/betterores/item/OpalToolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/opal_tools_shovel.json",
+          "src/main/java/net/mcreator/betterores/item/OpalToolsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/opal_tools_hoe.json",
+          "src/main/java/net/mcreator/betterores/item/OpalToolsHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalToolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opal_tools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalarmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opalarmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/OpalarmorArmorItem.java",
+          "src/main/resources/assets/betterore/models/item/opalarmor_armor_leggings.json",
+          "src/main/resources/assets/betterore/models/item/opalarmor_armor_helmet.json",
+          "src/main/resources/assets/betterore/models/item/opalarmor_armor_boots.json",
+          "src/main/resources/assets/betterore/models/item/opalarmor_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opalarmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opalarmor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalarmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opalarmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opalarmor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opalarmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opalarmor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OpalarmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opalarmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/opalarmor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitearmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitearmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/painitearmor_armor_chestplate.json",
+          "src/main/resources/assets/betterore/models/item/painitearmor_armor_helmet.json",
+          "src/main/resources/assets/betterore/models/item/painitearmor_armor_leggings.json",
+          "src/main/resources/assets/betterore/models/item/painitearmor_armor_boots.json",
+          "src/main/java/net/mcreator/betterores/item/PainitearmorArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PainitearmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitearmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitearmor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitearmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitearmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitearmor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitearmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitearmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitearmor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitearmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitearmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitearmor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/PainitetoolsPickaxeItem.java",
+          "src/main/resources/assets/betterore/models/item/painitetools_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/painitetools_axe.json",
+          "src/main/java/net/mcreator/betterores/item/PainitetoolsAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/painitetools_sword.json",
+          "src/main/java/net/mcreator/betterores/item/PainitetoolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/PainitetoolsShovelItem.java",
+          "src/main/resources/assets/betterore/models/item/painitetools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/PainitetoolsHoeItem.java",
+          "src/main/resources/assets/betterore/models/item/painitetools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitetools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitetools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitetools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitetools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PainitetoolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painitetools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/painitetools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Peridot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/PeridotItem.java",
+          "src/main/resources/assets/betterore/models/item/peridot.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/forge/biome_modifier/peridot_ore_biome_modifier.json",
+          "src/main/resources/data/betterore/worldgen/placed_feature/peridot_ore.json",
+          "src/main/resources/assets/betterore/models/block/peridot_ore.json",
+          "src/main/resources/assets/betterore/blockstates/peridot_ore.json",
+          "src/main/java/net/mcreator/betterores/block/PeridotOreBlock.java",
+          "src/main/resources/data/betterore/loot_tables/blocks/peridot_ore.json",
+          "src/main/resources/data/betterore/worldgen/configured_feature/peridot_ore.json",
+          "src/main/resources/assets/betterore/models/item/peridot_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/loot_tables/blocks/peridot_block.json",
+          "src/main/java/net/mcreator/betterores/block/PeridotBlockBlock.java",
+          "src/main/resources/assets/betterore/models/item/peridot_block.json",
+          "src/main/resources/assets/betterore/blockstates/peridot_block.json",
+          "src/main/resources/assets/betterore/models/block/peridot_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/peridot_pickaxe.json",
+          "src/main/java/net/mcreator/betterores/item/PeridotPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PeridotAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/peridot_axe.json",
+          "src/main/java/net/mcreator/betterores/item/PeridotAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PeridotSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/peridot_sword.json",
+          "src/main/java/net/mcreator/betterores/item/PeridotSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PeridotShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/peridot_shovel.json",
+          "src/main/java/net/mcreator/betterores/item/PeridotShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PeridotHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/peridot_hoe.json",
+          "src/main/java/net/mcreator/betterores/item/PeridotHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PeridotPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/peridot_armor_boots.json",
+          "src/main/resources/assets/betterore/models/item/peridot_armor_leggings.json",
+          "src/main/java/net/mcreator/betterores/item/PeridotArmorItem.java",
+          "src/main/resources/assets/betterore/models/item/peridot_armor_chestplate.json",
+          "src/main/resources/assets/betterore/models/item/peridot_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeridotArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peridot_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/peridot_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Garnet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/GarnetItem.java",
+          "src/main/resources/assets/betterore/models/item/garnet.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/block/GarnetOreBlock.java",
+          "src/main/resources/data/betterore/loot_tables/blocks/garnet_ore.json",
+          "src/main/resources/data/betterore/forge/biome_modifier/garnet_ore_biome_modifier.json",
+          "src/main/resources/data/betterore/worldgen/placed_feature/garnet_ore.json",
+          "src/main/resources/assets/betterore/models/item/garnet_ore.json",
+          "src/main/resources/data/betterore/worldgen/configured_feature/garnet_ore.json",
+          "src/main/resources/assets/betterore/blockstates/garnet_ore.json",
+          "src/main/resources/assets/betterore/models/block/garnet_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/block/garnet_block.json",
+          "src/main/resources/data/betterore/loot_tables/blocks/garnet_block.json",
+          "src/main/resources/assets/betterore/blockstates/garnet_block.json",
+          "src/main/java/net/mcreator/betterores/block/GarnetBlockBlock.java",
+          "src/main/resources/assets/betterore/models/item/garnet_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/garnet_pickaxe.json",
+          "src/main/java/net/mcreator/betterores/item/GarnetPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GarnetAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/GarnetAxeItem.java",
+          "src/main/resources/assets/betterore/models/item/garnet_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/garnet_sword.json",
+          "src/main/java/net/mcreator/betterores/item/GarnetSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GarnetShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/garnet_shovel.json",
+          "src/main/java/net/mcreator/betterores/item/GarnetShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GarnetHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/GarnetHoeItem.java",
+          "src/main/resources/assets/betterore/models/item/garnet_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/GarnetArmorItem.java",
+          "src/main/resources/assets/betterore/models/item/garnet_armor_leggings.json",
+          "src/main/resources/assets/betterore/models/item/garnet_armor_helmet.json",
+          "src/main/resources/assets/betterore/models/item/garnet_armor_chestplate.json",
+          "src/main/resources/assets/betterore/models/item/garnet_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GarnetArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garnet_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/garnet_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Spinel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/spinel.json",
+          "src/main/java/net/mcreator/betterores/item/SpinelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SpinelOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/blockstates/spinel_ore.json",
+          "src/main/resources/data/betterore/worldgen/placed_feature/spinel_ore.json",
+          "src/main/resources/assets/betterore/models/item/spinel_ore.json",
+          "src/main/java/net/mcreator/betterores/block/SpinelOreBlock.java",
+          "src/main/resources/data/betterore/forge/biome_modifier/spinel_ore_biome_modifier.json",
+          "src/main/resources/assets/betterore/models/block/spinel_ore.json",
+          "src/main/resources/data/betterore/loot_tables/blocks/spinel_ore.json",
+          "src/main/resources/data/betterore/worldgen/configured_feature/spinel_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/block/spinel_block.json",
+          "src/main/java/net/mcreator/betterores/block/SpinelBlockBlock.java",
+          "src/main/resources/data/betterore/loot_tables/blocks/spinel_block.json",
+          "src/main/resources/assets/betterore/models/item/spinel_block.json",
+          "src/main/resources/assets/betterore/blockstates/spinel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinel_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinel_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinel_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelsArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinels_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/item/SpinelsArmorItem.java",
+          "src/main/resources/assets/betterore/models/item/spinels_armor_leggings.json",
+          "src/main/resources/assets/betterore/models/item/spinels_armor_chestplate.json",
+          "src/main/resources/assets/betterore/models/item/spinels_armor_helmet.json",
+          "src/main/resources/assets/betterore/models/item/spinels_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelsArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinels_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinels_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelsArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinels_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinels_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelsArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinels_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinels_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpinelsArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinels_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinels_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Hammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/hammer.json",
+          "src/main/java/net/mcreator/betterores/item/HammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Spinelhammer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinelhammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/spinel_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateOpal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_opal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/block/deepslate_opal.json",
+          "src/main/resources/assets/betterore/blockstates/deepslate_opal.json",
+          "src/main/resources/assets/betterore/models/item/deepslate_opal.json",
+          "src/main/resources/data/betterore/worldgen/configured_feature/deepslate_opal.json",
+          "src/main/resources/data/betterore/worldgen/placed_feature/deepslate_opal.json",
+          "src/main/java/net/mcreator/betterores/block/DeepslateOpalBlock.java",
+          "src/main/resources/data/betterore/forge/biome_modifier/deepslate_opal_biome_modifier.json",
+          "src/main/resources/data/betterore/loot_tables/blocks/deepslate_opal.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkDiamond",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/pink_diamond.json",
+          "src/main/java/net/mcreator/betterores/item/PinkDiamondItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PinkDiamondBow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_diamond_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/pink_diamond_bow.json",
+          "src/main/java/net/mcreator/betterores/item/PinkDiamondBowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondBowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/diamond_bow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/pearl.json",
+          "src/main/java/net/mcreator/betterores/item/PearlItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PearlOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/worldgen/configured_feature/pearl_ore.json",
+          "src/main/resources/data/betterore/forge/biome_modifier/pearl_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/betterores/block/PearlOreBlock.java",
+          "src/main/resources/assets/betterore/models/block/pearl_ore.json",
+          "src/main/resources/data/betterore/worldgen/placed_feature/pearl_ore.json",
+          "src/main/resources/assets/betterore/blockstates/pearl_ore.json",
+          "src/main/resources/assets/betterore/models/item/pearl_ore.json",
+          "src/main/resources/data/betterore/loot_tables/blocks/pearl_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PearlBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/block/PearlBlockBlock.java",
+          "src/main/resources/data/betterore/loot_tables/blocks/pearl_block.json",
+          "src/main/resources/assets/betterore/blockstates/pearl_block.json",
+          "src/main/resources/assets/betterore/models/block/pearl_block.json",
+          "src/main/resources/assets/betterore/models/item/pearl_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PearlOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/pearl_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PearlBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/pearl_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PearlOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/betterore/recipes/pearl_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Heanvly",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heanvly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/betterore/models/item/heanvly_boots.json",
+          "src/main/java/net/mcreator/betterores/item/HeanvlyItem.java",
+          "src/main/resources/assets/betterore/models/item/heanvly_helmet.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:DeepslateOpal",
+      "~CUSTOM:SpinelBlock",
+      "~CUSTOM:GarnetBlock",
+      "~CUSTOM:GarnetOre",
+      "~CUSTOM:PeridotBlock",
+      "~CUSTOM:PainiteBlock",
+      "~CUSTOM:PainiteOre",
+      "~CUSTOM:OpalBlock",
+      "~CUSTOM:OpalOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:PearlBlock",
+      "~CUSTOM:PearlOre",
+      "~CUSTOM:SpinelOre",
+      "~CUSTOM:PeridotOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PearlBlock",
+      "~CUSTOM:PearlOre",
+      "~CUSTOM:DeepslateOpal",
+      "~CUSTOM:SpinelBlock",
+      "~CUSTOM:SpinelOre",
+      "~CUSTOM:GarnetBlock",
+      "~CUSTOM:GarnetOre",
+      "~CUSTOM:PeridotBlock",
+      "~CUSTOM:PeridotOre",
+      "~CUSTOM:PainiteBlock",
+      "~CUSTOM:PainiteOre",
+      "~CUSTOM:OpalBlock",
+      "~CUSTOM:OpalOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Hammer",
+      "~CUSTOM:GarnetPickaxe",
+      "~CUSTOM:PeridotPickaxe",
+      "~CUSTOM:PainitetoolsPickaxe",
+      "~CUSTOM:OpalToolsPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:GarnetAxe",
+      "~CUSTOM:PeridotAxe",
+      "~CUSTOM:PainitetoolsAxe",
+      "~CUSTOM:OpalToolsAxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:GarnetHoe",
+      "~CUSTOM:PeridotHoe",
+      "~CUSTOM:PainitetoolsHoe",
+      "~CUSTOM:OpalToolsHoe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:GarnetSword",
+      "~CUSTOM:PeridotSword",
+      "~CUSTOM:PainitetoolsSword",
+      "~CUSTOM:OpalToolsSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:GarnetShovel",
+      "~CUSTOM:PeridotShovel",
+      "~CUSTOM:PainitetoolsShovel",
+      "~CUSTOM:OpalToolsShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.jeqhhdgsr.spinels_armor_helmet": "Spinel Helmet",
+      "item.betterore.painitetools_shovel": "Painitetools Shovel",
+      "item.jeqhhdgsr.painitetools_axe": "Painite Axe",
+      "item.betterore.garnet_sword": "Garnet Sword",
+      "item.betterore.peridot_armor_chestplate": "Peridot Chestplate",
+      "item.betterore.hammer": "Hammer",
+      "item.jeqhhdgsr.garnet_shovel": "Garnet Shovel",
+      "block.betterore.peridot_ore": "Peridot Ore",
+      "block.betterore.pearl_ore": "Pearl Ore",
+      "block.jeqhhdgsr.spinel_ore": "Spinel Ore",
+      "item.betterore.spinel": "Spinel",
+      "item.betterore.peridot_sword": "Peridot Sword",
+      "block.betterore.opal_ore": "Opal Ore",
+      "item.betterore.peridot": "Peridot",
+      "item.jeqhhdgsr.peridot_pickaxe": "Peridot Pickaxe",
+      "item.jeqhhdgsr.peridot_armor_boots": "Peridot Boots",
+      "item.betterore.painitetools_sword": "Painitetools Sword",
+      "item.betterore.opal_tools_sword": "OpalSword",
+      "block.betterore.spinel_block": "Block of Spinel",
+      "item.jeqhhdgsr.peridot_armor_leggings": "Peridot Leggings",
+      "block.jeqhhdgsr.opal_block": "Block of Opal",
+      "item.betterore.opal_tools_hoe": "Opal Hoe",
+      "item.jeqhhdgsr.painitearmor_armor_helmet": "Painite Helmet",
+      "item.jeqhhdgsr.peridot_axe": "Peridot Axe",
+      "block.betterore.garnet_ore": "Garnet Ore",
+      "item.betterore.garnet_shovel": "Garnet Shovel",
+      "item.betterore.painitearmor_armor_helmet": "Painite Helmet",
+      "item.betterore.garnet_armor_leggings": "Garnet Leggings",
+      "item.jeqhhdgsr.painitearmor_armor_chestplate": "Painite Chestplate",
+      "item.betterore.garnet_armor_helmet": "Garnet Helmet",
+      "item.jeqhhdgsr.spinels_armor_chestplate": "Spinel Chestplate",
+      "item.betterore.peridot_armor_boots": "Peridot Boots",
+      "item.betterore.garnet_axe": "Garnet Axe",
+      "item.betterore.spinels_armor_leggings": "Spinel Leggings",
+      "item.betterore.garnet": "Garnet",
+      "item.betterore.peridot_armor_helmet": "Peridot Helmet",
+      "block.jeqhhdgsr.garnet_block": "Block of Garnet",
+      "item.jeqhhdgsr.opal_tools_pickaxe": "Opal Pickaxe",
+      "item.jeqhhdgsr.painite": "Painite",
+      "item.jeqhhdgsr.spinel": "Spinel",
+      "item.jeqhhdgsr.peridot_shovel": "Peridot Shovel",
+      "item.betterore.painitearmor_armor_chestplate": "Painite Chestplate",
+      "item.jeqhhdgsr.opal_tools_axe": "Opal Axe",
+      "item.betterore.opalarmor_armor_leggings": "Opalarmor Leggings",
+      "block.betterore.opal_block": "Block of Opal",
+      "item.jeqhhdgsr.garnet_armor_boots": "Garnet Boots",
+      "item.betterore.painitearmor_armor_boots": "Painite Boots",
+      "item.jeqhhdgsr.opal_tools_shovel": "Opal Shovel",
+      "item.betterore.garnet_armor_chestplate": "Garnet Chestplate",
+      "item.betterore.painitetools_pickaxe": "Painitetools Pickaxe",
+      "item.betterore.painitetools_axe": "Painite Axe",
+      "item.betterore.peridot_pickaxe": "Peridot Pickaxe",
+      "block.jeqhhdgsr.peridot_block": "Block of Peridot",
+      "item.jeqhhdgsr.garnet": "Garnet",
+      "item.betterore.painite": "Painite",
+      "item.betterore.opal": "Opal",
+      "item.betterore.garnet_hoe": "Garnet Hoe",
+      "item.betterore.garnet_pickaxe": "Garnet Pickaxe",
+      "block.jeqhhdgsr.painite_ore": "Painite Ore",
+      "block.betterore.painite_ore": "Painite Ore",
+      "block.betterore.peridot_block": "Block of Peridot",
+      "block.betterore.garnet_block": "Block of Garnet",
+      "item.betterore.heanvly_helmet": "Heanvly Helmet",
+      "item.betterore.peridot_hoe": "Peridot Hoe",
+      "item.jeqhhdgsr.spinels_armor_leggings": "Spinel Leggings",
+      "item.betterore.spinels_armor_helmet": "Spinel Helmet",
+      "item.betterore.peridot_armor_leggings": "Peridot Leggings",
+      "item.jeqhhdgsr.opal_tools_hoe": "Opal Hoe",
+      "item.jeqhhdgsr.peridot_armor_chestplate": "Peridot Chestplate",
+      "item.betterore.opalarmor_armor_chestplate": "Opalarmor Chestplate",
+      "item.betterore.garnet_armor_boots": "Garnet Boots",
+      "block.betterore.painite_block": "Block of Painite",
+      "item.betterore.opalarmor_armor_helmet": "Opalarmor Helmet",
+      "item.jeqhhdgsr.painitearmor_armor_leggings": "Painite Leggings",
+      "item.jeqhhdgsr.garnet_armor_helmet": "Garnet Helmet",
+      "block.jeqhhdgsr.peridot_ore": "Peridot Ore",
+      "item.jeqhhdgsr.opalarmor_armor_chestplate": "Opalarmor Chestplate",
+      "item.jeqhhdgsr.garnet_armor_leggings": "Garnet Leggings",
+      "item.jeqhhdgsr.peridot": "Peridot",
+      "block.jeqhhdgsr.painite_block": "Block of Painite",
+      "block.jeqhhdgsr.opal_ore": "Opal Ore",
+      "item.betterore.painitetools_hoe": "Painitetools Hoe",
+      "item.jeqhhdgsr.painitetools_shovel": "Painitetools Shovel",
+      "item.betterore.opalarmor_armor_boots": "Opalarmor Boots",
+      "item.jeqhhdgsr.hammer": "Hammer",
+      "item.betterore.spinels_armor_chestplate": "Spinel Chestplate",
+      "item.jeqhhdgsr.opal": "Opal",
+      "item.betterore.pink_diamond": "PinkDiamond",
+      "item.betterore.heanvly_boots": "Heanvly Boots",
+      "item.jeqhhdgsr.peridot_armor_helmet": "Peridot Helmet",
+      "item.betterore.peridot_shovel": "Peridot Shovel",
+      "item.betterore.opal_tools_axe": "Opal Axe",
+      "item.jeqhhdgsr.garnet_hoe": "Garnet Hoe",
+      "item.betterore.painitearmor_armor_leggings": "Painite Leggings",
+      "item.jeqhhdgsr.painitetools_sword": "Painitetools Sword",
+      "item.jeqhhdgsr.garnet_sword": "Garnet Sword",
+      "item.jeqhhdgsr.opal_tools_sword": "OpalSword",
+      "item.betterore.pink_diamond_bow": "Pink Diamond Bow",
+      "block.jeqhhdgsr.garnet_ore": "Garnet Ore",
+      "item.betterore.peridot_axe": "Peridot Axe",
+      "item.jeqhhdgsr.opalarmor_armor_boots": "Opalarmor Boots",
+      "item.jeqhhdgsr.painitetools_hoe": "Painitetools Hoe",
+      "item.jeqhhdgsr.spinels_armor_boots": "Spinel Boots",
+      "item.jeqhhdgsr.garnet_pickaxe": "Garnet Pickaxe",
+      "item.jeqhhdgsr.opalarmor_armor_helmet": "Opalarmor Helmet",
+      "item.jeqhhdgsr.opalarmor_armor_leggings": "Opalarmor Leggings",
+      "block.betterore.deepslate_opal": "Opal Ore",
+      "block.jeqhhdgsr.spinel_block": "Block of Spinel",
+      "item.betterore.opal_tools_pickaxe": "Opal Pickaxe",
+      "item.betterore.spinels_armor_boots": "Spinel Boots",
+      "item.jeqhhdgsr.peridot_hoe": "Peridot Hoe",
+      "item.jeqhhdgsr.peridot_sword": "Peridot Sword",
+      "item.jeqhhdgsr.painitearmor_armor_boots": "Painite Boots",
+      "item.betterore.opal_tools_shovel": "Opal Shovel",
+      "item.betterore.pearl": "Pearl",
+      "block.betterore.spinel_ore": "Spinel Ore",
+      "item.jeqhhdgsr.painitetools_pickaxe": "Painitetools Pickaxe",
+      "item.jeqhhdgsr.garnet_axe": "Garnet Axe",
+      "item.jeqhhdgsr.garnet_armor_chestplate": "Garnet Chestplate",
+      "block.betterore.pearl_block": "Block of Pearl"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "betterore",
+    "modName": "better Ores",
+    "version": "1.1.0 beta",
+    "description": "Better Ores + is a mod to give your game a new glance into farming and ores, with new tools, ores, armor and item, but aslo a new biome! All credit to myself, you can find me on any platform with my user \"Axel_Dademon\" but you cna add me trough discord \u003c3",
+    "author": "Axel_Dademin, MCreator",
+    "websiteURL": "N/A",
+    "license": "All credit coems back to me",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.betterores"
+  },
+  "mcreatorVersion": 202400342716
+}

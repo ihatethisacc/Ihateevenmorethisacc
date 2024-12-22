@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "betterore:deepslate_opal",
+    "betterore:spinel_block",
+    "betterore:garnet_block",
+    "betterore:garnet_ore",
+    "betterore:peridot_block",
+    "betterore:painite_block",
+    "betterore:painite_ore",
+    "betterore:opal_block",
+    "betterore:opal_ore"
+  ]
+}

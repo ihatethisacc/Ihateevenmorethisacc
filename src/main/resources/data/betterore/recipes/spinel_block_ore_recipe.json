@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterore:spinel_block"
+    }
+  ],
+  "result": {
+    "item": "betterore:spinel",
+    "count": 9
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "a b",
+    " ab"
+  ],
+  "key": {
+    "a": {
+      "item": "betterore:pink_diamond"
+    },
+    "b": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "betterore:pink_diamond_bow",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betterore:garnet_block"
+    }
+  ],
+  "result": {
+    "item": "betterore:garnet",
+    "count": 9
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "betterore:opal"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "betterore:painite_block"
+    }
+  },
+  "result": {
+    "item": "betterore:opalarmor_armor_chestplate",
+    "count": 1
+  }
+}
