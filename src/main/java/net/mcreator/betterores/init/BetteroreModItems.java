@@ -14,8 +14,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.betterores.item.SpinelsArmorItem;
 import net.mcreator.betterores.item.SpinelItem;
-import net.mcreator.betterores.item.PinkDiamondItem;
-import net.mcreator.betterores.item.PinkDiamondBowItem;
 import net.mcreator.betterores.item.PeridotSwordItem;
 import net.mcreator.betterores.item.PeridotShovelItem;
 import net.mcreator.betterores.item.PeridotPickaxeItem;
@@ -23,7 +21,6 @@ import net.mcreator.betterores.item.PeridotItem;
 import net.mcreator.betterores.item.PeridotHoeItem;
 import net.mcreator.betterores.item.PeridotAxeItem;
 import net.mcreator.betterores.item.PeridotArmorItem;
-import net.mcreator.betterores.item.PearlItem;
 import net.mcreator.betterores.item.PainitetoolsSwordItem;
 import net.mcreator.betterores.item.PainitetoolsShovelItem;
 import net.mcreator.betterores.item.PainitetoolsPickaxeItem;
@@ -38,7 +35,6 @@ import net.mcreator.betterores.item.OpalToolsPickaxeItem;
 import net.mcreator.betterores.item.OpalToolsHoeItem;
 import net.mcreator.betterores.item.OpalToolsAxeItem;
 import net.mcreator.betterores.item.OpalItem;
-import net.mcreator.betterores.item.HeanvlyItem;
 import net.mcreator.betterores.item.HammerItem;
 import net.mcreator.betterores.item.GarnetSwordItem;
 import net.mcreator.betterores.item.GarnetShovelItem;
@@ -108,13 +104,6 @@ public class BetteroreModItems {
 	public static final RegistryObject<Item> SPINELS_ARMOR_BOOTS = REGISTRY.register("spinels_armor_boots", () -> new SpinelsArmorItem.Boots());
 	public static final RegistryObject<Item> HAMMER = REGISTRY.register("hammer", () -> new HammerItem());
 	public static final RegistryObject<Item> DEEPSLATE_OPAL = block(BetteroreModBlocks.DEEPSLATE_OPAL);
-	public static final RegistryObject<Item> PINK_DIAMOND = REGISTRY.register("pink_diamond", () -> new PinkDiamondItem());
-	public static final RegistryObject<Item> PINK_DIAMOND_BOW = REGISTRY.register("pink_diamond_bow", () -> new PinkDiamondBowItem());
-	public static final RegistryObject<Item> PEARL = REGISTRY.register("pearl", () -> new PearlItem());
-	public static final RegistryObject<Item> PEARL_ORE = block(BetteroreModBlocks.PEARL_ORE);
-	public static final RegistryObject<Item> PEARL_BLOCK = block(BetteroreModBlocks.PEARL_BLOCK);
-	public static final RegistryObject<Item> HEANVLY_HELMET = REGISTRY.register("heanvly_helmet", () -> new HeanvlyItem.Helmet());
-	public static final RegistryObject<Item> HEANVLY_BOOTS = REGISTRY.register("heanvly_boots", () -> new HeanvlyItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

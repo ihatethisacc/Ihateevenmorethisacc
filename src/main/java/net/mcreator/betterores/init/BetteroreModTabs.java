@@ -34,8 +34,6 @@ public class BetteroreModTabs {
 			tabData.accept(BetteroreModBlocks.SPINEL_ORE.get().asItem());
 			tabData.accept(BetteroreModBlocks.SPINEL_BLOCK.get().asItem());
 			tabData.accept(BetteroreModBlocks.DEEPSLATE_OPAL.get().asItem());
-			tabData.accept(BetteroreModBlocks.PEARL_ORE.get().asItem());
-			tabData.accept(BetteroreModBlocks.PEARL_BLOCK.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
@@ -63,9 +61,6 @@ public class BetteroreModTabs {
 			tabData.accept(BetteroreModItems.SPINELS_ARMOR_CHESTPLATE.get());
 			tabData.accept(BetteroreModItems.SPINELS_ARMOR_LEGGINGS.get());
 			tabData.accept(BetteroreModItems.SPINELS_ARMOR_BOOTS.get());
-			tabData.accept(BetteroreModItems.PINK_DIAMOND_BOW.get());
-			tabData.accept(BetteroreModItems.HEANVLY_HELMET.get());
-			tabData.accept(BetteroreModItems.HEANVLY_BOOTS.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
@@ -74,8 +69,6 @@ public class BetteroreModTabs {
 			tabData.accept(BetteroreModItems.PERIDOT.get());
 			tabData.accept(BetteroreModItems.GARNET.get());
 			tabData.accept(BetteroreModItems.SPINEL.get());
-			tabData.accept(BetteroreModItems.PINK_DIAMOND.get());
-			tabData.accept(BetteroreModItems.PEARL.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

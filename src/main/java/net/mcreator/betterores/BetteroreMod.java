@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.betterores.init.BetteroreModTabs;
 import net.mcreator.betterores.init.BetteroreModItems;
+import net.mcreator.betterores.init.BetteroreModEnchantments;
 import net.mcreator.betterores.init.BetteroreModBlocks;
 
 import java.util.function.Supplier;
@@ -45,6 +46,7 @@ public class BetteroreMod {
 
 		BetteroreModItems.REGISTRY.register(bus);
 
+		BetteroreModEnchantments.REGISTRY.register(bus);
 		BetteroreModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init

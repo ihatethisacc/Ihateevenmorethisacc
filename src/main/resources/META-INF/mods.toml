@@ -1,15 +1,14 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="All credit coems back to me"
+license="Not specified"
 
 [[mods]]
 modId="betterore"
-version="1.1.0"
-displayName="better Ores"
+version="1.0.0"
+displayName="betetr Ores"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="Axel_Dademin, MCreator"
-description="Better Ores + is a mod to give your game a new glance into farming and ores, with new tools, ores, armor and item, but aslo a new biome! All credit to myself, you can find me on any platform with my user \"Axel_Dademon\" but you cna add me trough discord <3"
+authors="GAMER, MCreator"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

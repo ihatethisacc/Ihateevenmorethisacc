@@ -1271,6 +1271,52 @@
           "src/main/resources/data/betterore/loot_tables/blocks/deepslate_opal.json"
         ]
       }
+    },
+    {
+      "name": "Excavator",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excavator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/enchantment/ExcavatorEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "ExcavatorProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excavator_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/betterores/procedures/ExcavatorProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1366,8 +1412,8 @@
       "item.betterore.garnet_shovel": "Garnet Shovel",
       "item.betterore.painitearmor_armor_helmet": "Painite Helmet",
       "item.betterore.garnet_armor_leggings": "Garnet Leggings",
-      "item.jeqhhdgsr.painitearmor_armor_chestplate": "Painite Chestplate",
       "item.betterore.garnet_armor_helmet": "Garnet Helmet",
+      "item.jeqhhdgsr.painitearmor_armor_chestplate": "Painite Chestplate",
       "item.jeqhhdgsr.spinels_armor_chestplate": "Spinel Chestplate",
       "item.betterore.peridot_armor_boots": "Peridot Boots",
       "item.betterore.garnet_axe": "Garnet Axe",
@@ -1377,8 +1423,8 @@
       "block.jeqhhdgsr.garnet_block": "Block of Garnet",
       "item.jeqhhdgsr.opal_tools_pickaxe": "Opal Pickaxe",
       "item.jeqhhdgsr.painite": "Painite",
-      "item.jeqhhdgsr.spinel": "Spinel",
       "item.jeqhhdgsr.peridot_shovel": "Peridot Shovel",
+      "item.jeqhhdgsr.spinel": "Spinel",
       "item.betterore.painitearmor_armor_chestplate": "Painite Chestplate",
       "item.jeqhhdgsr.opal_tools_axe": "Opal Axe",
       "item.betterore.opalarmor_armor_leggings": "Opalarmor Leggings",
@@ -1432,6 +1478,7 @@
       "item.jeqhhdgsr.painitetools_sword": "Painitetools Sword",
       "item.jeqhhdgsr.garnet_sword": "Garnet Sword",
       "item.jeqhhdgsr.opal_tools_sword": "OpalSword",
+      "enchantment.betterore.excavator": "Excavator",
       "block.jeqhhdgsr.garnet_ore": "Garnet Ore",
       "item.betterore.peridot_axe": "Peridot Axe",
       "item.jeqhhdgsr.opalarmor_armor_boots": "Opalarmor Boots",

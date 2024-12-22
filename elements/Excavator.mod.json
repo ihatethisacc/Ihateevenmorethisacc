@@ -1,0 +1,26 @@
+{
+  "_fv": 69,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Excavator",
+    "supportedSlots": "any",
+    "weight": 2,
+    "anvilCost": 3,
+    "maxLevel": 2,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "FORTUNE"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "TAG:minecraft:pickaxes"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}
